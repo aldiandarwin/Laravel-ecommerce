@@ -1,0 +1,7 @@
+**/vendor
+**/public
+**/bootstrap
+**/.git
+**/.svn
+**/.hg
+**/node_modules

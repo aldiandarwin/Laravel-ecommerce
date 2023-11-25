@@ -1,66 +1,75 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Laravel Inertia React
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Overview E-Commerce Project
 
-## About Laravel
+In this project, we will build an e-commerce platform from scratch, delving into various aspects of web development.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+The primary focus will be on implementing a fully functional online store with Laravel, Inertia, and React. Through this project,
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+you'll gain insights into different techniques and technologies commonly used in real-world applications.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## What We Build
 
-## Learning Laravel
+We aim to create a comprehensive online store, covering essential functionalities such as:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Shopping Cart
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Implementing a robust shopping cart system to manage user-selected items
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Check Out
 
-## Laravel Sponsors
+Developing a seamless checkout process for customers.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### Payment Gateway
 
-### Premium Partners
+Integrating a third-party payment gateway for secure and efficient transactions.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+### Shipping
 
-## Contributing
+Implementing a shipping module, including integration with an API to calculate shipping costs based on customer preferences from Raja ongkir
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Product Variation
 
-## Code of Conduct
+Managing product variations, such as size, color, etc.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Third-Party Services
 
-## Security Vulnerabilities
+Our project will integrate various third-party services, including:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Payment Gateway Integration: Exploring the integration of a payment gateway to facilitate secure online transactions with midtrans
 
-## License
+Shipping API: Utilizing an API to fetch real-time shipping costs based on selected services with Raja ongkir
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Laravel Broadcasting: Implementing real-time features using Laravel Broadcasting.
+
+Laravel Echo: Learning how to use Laravel Echo for broadcasting events.
+
+Pusher: Integrating Pusher as a broadcasting driver for real-time updates.
+
+The goal is not only to implement these services in our current project but also to understand their inner workings for potential use in other projects.
+
+## Implementation Details
+
+Here are the key techniques and technologies we'll be applying in this project:
+
+Laravel Inertia with React: Combining Laravel on the backend with Inertia and React on the frontend for a modern, reactive user interface.
+
+Interface and Container Implementation: Understanding the structure of Inertia and React components and how they interact.
+
+Laravel Service Provider: Delving into Laravel service providers for effective code organization and dependency management.
+
+Laravel Dependency Injection: Learning about dependency injection in Laravel for writing clean and maintainable code.
+
+React.js: Gaining a deep understanding of React.js for building dynamic and interactive user interfaces.
+
+Queue: Implementing a queue system for handling time-consuming tasks efficiently.
+
+Broadcast: Leveraging Laravel's broadcasting capabilities for real-time updates.
+
+Real-time with Laravel Echo: Integrating Laravel Echo to enable real-time communication between the server and the client.
+
+Pusher Integration: Using Pusher as a broadcasting driver to enable seamless real-time features.
+
+Advanced Tailwind CSS Components: Enhancing the user interface with advanced Tailwind CSS components for a polished design.
+
+This project will serve as a comprehensive guide for building not just an e-commerce platform but also for understanding and implementing various advanced features and technologies in Laravel, Inertia, and React. Feel free to explore and adapt the concepts learned here for your future projects

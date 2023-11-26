@@ -63,6 +63,9 @@ export default function Navbar() {
                                         <Dropdown.Link href={route('logout')} method='post' as='button'>
                                             Log Out
                                         </Dropdown.Link>
+                                        <Dropdown.Link href={route('shipping-addresses.index')}>
+                                            Alamat Pengiriman
+                                        </Dropdown.Link>
                                     </Dropdown.Content>
                                 </Dropdown>
                             </div>

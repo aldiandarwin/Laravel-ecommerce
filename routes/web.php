@@ -6,6 +6,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\CartController;
+use App\Http\Controllers\LocationController;
+use App\Http\Controllers\ShippingAddressController;
 
 Route::get('/', HomeController::class)->name('home');
 
@@ -26,5 +28,13 @@ Route::resource('products', ProductController::class)
 Route::resource('carts', CartController::class)
     ->except(['edit', 'create', 'show'])
     ->middleware('auth');
+
+    Route::resource('shipping-addresses', ShippingAddressController::class)
+    ->except('show')
+    ->middleware('auth');
+
+Route::get('cities/{province}', [LocationController::class, 'city'])->name('location.city');
+
+Route::get('sub-district/{city}', [LocationController::class, 'subdistrict'])->name('location.subdistrict');
 
 require __DIR__ . '/auth.php';

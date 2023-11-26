@@ -31,4 +31,10 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'rajaongkir' => [
+        'origin' => env('RAJAONGKIR_ORIGIN', '278'),
+        'origin_type' => env('RAJAONGKIR_ORIGIN_TYPE', 'city'), // 'city' atau 'subdistrict
+        'key' => env('RAJAONGKIR_KEY', '3a435288b61ec36fff7efe5b1bba74f4'),
+        'base_url' => env('RAJAONGKIR_BASE_URL', 'https://api.rajaongkir.com/starter'),
+    ],
 ];

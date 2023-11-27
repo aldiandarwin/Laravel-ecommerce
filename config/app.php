@@ -169,7 +169,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         App\Providers\RajaOngkirServiceProvider::class,
-        // App\Providers\PaymentGatewayServiceProvider::class,
+        App\Providers\PaymentGatewayServiceProvider::class,
     ])->toArray(),
 
     /*

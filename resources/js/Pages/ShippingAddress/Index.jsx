@@ -24,9 +24,9 @@ export default function Index({ shipping_addresses }) {
 
                                         <div className='mt-5 flex items-center gap-x-3'>
                                             <span>{shippingAddress.province}</span>
-                                            <span className='text-gray-300'>/</span>
+                                            <span className='text-slate-300'>/</span>
                                             <span>{shippingAddress.city}</span>
-                                            <span className='text-gray-300'>/</span>
+                                            <span className='text-slate-300'>/</span>
                                             <span>{shippingAddress.subdistrict}</span>
                                         </div>
 
@@ -69,7 +69,7 @@ export default function Index({ shipping_addresses }) {
 
 Index.layout = (page) => (
     <AppLayout
-        header={<h2 className='text-xl font-semibold leading-tight text-gray-800'>Shipping Address</h2>}
+        header={<h2 className='text-xl font-semibold leading-tight text-slate-800'>Shipping Address</h2>}
         children={page}
     />
 );

@@ -43,15 +43,15 @@ export default function Form({ location, shipping_address, page_setting }) {
         <div>
             <Head title='Shipping Address' />
             <Container>
-                <div className='py-8 '>
-                    <div className='max-w-xl p-6 bg-white rounded-lg shadow'>
+                <div className=' py-8'>
+                    <div className='max-w-xl rounded-lg bg-white p-6 shadow'>
                         <form onSubmit={submit} className='space-y-6'>
                             <div>
                                 <InputLabel htmlFor='address' value='Address' />
 
                                 <textarea
                                     id='address'
-                                    className='block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500'
+                                    className='mt-1 block w-full rounded-md border-slate-300 shadow-sm focus:border-blue-500 focus:ring-blue-500'
                                     value={data.address}
                                     onChange={(e) => setData('address', e.target.value)}
                                     required
@@ -123,7 +123,7 @@ export default function Form({ location, shipping_address, page_setting }) {
                                     enterFrom='opacity-0'
                                     leaveTo='opacity-0'
                                     className='transition ease-in-out'>
-                                    <p className='text-sm text-gray-600'>Saved.</p>
+                                    <p className='text-sm text-slate-600'>Saved.</p>
                                 </Transition>
                             </div>
                         </form>
@@ -136,7 +136,7 @@ export default function Form({ location, shipping_address, page_setting }) {
 
 Form.layout = (page) => (
     <AppLayout
-        header={<h2 className='text-xl font-semibold leading-tight text-gray-800'>Shipping Address</h2>}
+        header={<h2 className='text-xl font-semibold leading-tight text-slate-800'>Shipping Address</h2>}
         children={page}
     />
 );

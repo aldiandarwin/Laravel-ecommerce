@@ -8,7 +8,9 @@ use Illuminate\Support\Facades\Http;
 class RajaOngkirService
 {
     protected mixed $baseUrl;
+
     protected PendingRequest $http;
+
     private mixed $apiKey;
 
     public function __construct()

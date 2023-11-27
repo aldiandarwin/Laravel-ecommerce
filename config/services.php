@@ -37,4 +37,11 @@ return [
         'key' => env('RAJAONGKIR_KEY', '3a435288b61ec36fff7efe5b1bba74f4'),
         'base_url' => env('RAJAONGKIR_BASE_URL', 'https://api.rajaongkir.com/starter'),
     ],
+
+    'midtrans' => [
+        'merchant_id' => env('MIDTRANS_MERCHANT_ID', 'merchan_id'),
+        'client_key' => env('MIDTRANS_CLIENT_KEY', 'client_key'),
+        'server_key' => env('MIDTRANS_SERVER_KEY', 'server_key'),
+        'base_url' => env('MIDTRANS_BASE_URL', 'base_url'),
+    ],
 ];
